@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>FakeChatBot.JS</title>
+    <link rel="stylesheet" href="../src/fakechatbot.css" />
+  </head>
+  <body>
+
+    <div id="chatbot">
+      <div class="fakechatbot-message" data-pause="1000"><strong>User:</strong> Hello</div>
+      <div class="fakechatbot-message" data-pause="3000"><strong>Bot:</strong> Good morning! How can I help you?</div>
+      <div class="fakechatbot-message" data-pause="2000"><strong>User:</strong> What's the weather today?</div>
+      <div class="fakechatbot-message" data-pause="1000"><strong>Bot:</strong> Cloudy, +9°C in Geneva, Switzerland</div>
+      <div class="fakechatbot-typing">is typing ...</div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../src/fakechatbot.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('#chatbot').fakechatbot();
+    });
+    </script>
+
+  </body>
+</html>
