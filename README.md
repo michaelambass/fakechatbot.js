@@ -1,9 +1,9 @@
-# FakeChatBot.JS
+# FakeChatBot.JS (1ko)
 
-FakeChatBot.JS is a jQuery plugin that allow you to simulate a chat conversation.
+FakeChatBot.JS v.1.0 is a leightweight (1ko) jQuery plugin that allow you to simulate a chat conversation.
 
 ## Demo
-![MacDown logo](http://macdown.uranusjr.com/static/base/img/logo-160.png)
+![FakeChatBot.JS](https://media.giphy.com/media/l0MYKFw1eUIe5uXuM/giphy.gif)
 
 ## How to use
 ### Dependencies
@@ -38,6 +38,9 @@ $(document).ready(function(){
 });
 </script>
 ```
+
+#### Pause beetween each interaction
+You can use the data-param attribute __data-pause__ to set a delay beetween each communication (in miliseconds)
 
 ## Contribution
 Pull requests are always welcome, but not all suggested features will get merged. Feel free to contact me if you have an idea for a feature.
