@@ -1,6 +1,7 @@
 # FakeChatBot.JS (1ko)
 
 FakeChatBot.JS v.1.0 is a leightweight (1ko) jQuery plugin that allow you to simulate a chat conversation.
+The typing duration is based on the number of word in the message multiple by the __durationPerWord__ value.
 
 ## Demo
 ![FakeChatBot.JS](https://media.giphy.com/media/l0MYKFw1eUIe5uXuM/giphy.gif)
@@ -17,6 +18,18 @@ FakeChatBot.JS need to have jQuery installed to work.
 ``` html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="../src/fakechatbot.js"></script>
+```
+
+### Parameters
+#### Typing duration per word
+Typing duration calculated per word * duration per word (in miliseconds).
+
+__Default value : 200__
+
+``` html
+$('#chatbot').fakechatbot({
+	durationPerWord: 200
+});
 ```
 
 ### Usage
