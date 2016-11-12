@@ -16,7 +16,7 @@ FakeChatBot.JS need to have jQuery installed to work.
 
 ``` html
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="/src/fakechatbot.js"></script>
+<script src="../src/fakechatbot.js"></script>
 ```
 
 ### Usage
